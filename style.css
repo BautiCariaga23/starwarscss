@@ -3,22 +3,30 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
     border-radius: 10px;
-    margin-left: 800px;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-shadow: 0 0 10px black;
 }
 .imperio{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 1000px;
-    margin-left: -200px;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.5);
 }
 .rebeldes{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
     width: 1000px;
-    margin-left: -200px;
-    background-color: blue;
-
+    background-color: rgba(0, 0, 255, 0.5);
 }
 
 #darth_vader{
